@@ -1,0 +1,13 @@
+#duo_iframe {
+    width: 100%;
+    min-width: 304px;
+    max-width: 620px;
+    height: 340px;
+}
+
+.center_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+ }
