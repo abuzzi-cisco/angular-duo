@@ -21,14 +21,18 @@ Please remember to fill valid host & sig_request within the Duo.init initializat
 These can be found inside src/app/login-duo/login-duo.component.ts file
 
         host: "api-0c827f40.duosecurity.com",
-        sig_request: "XXXXXXXXXXXX",
+        sig_request: "TX|YWJXXXX....",
 
 The sign_request should come from API toward backend.
 
 
 ## Final results
 
-This project outcome will allow you to embed Cisco DUO inside angular's component:
+This project outcome will allow you to embed Cisco DUO inside angular's component:<br>
 
-<img src="https://github.com/abuzzi-cisco/angular-duo/blob/master/cisco_duo_1of2.png" width="500">
-<img src="https://github.com/abuzzi-cisco/angular-duo/blob/master/cisco_duo_2of2.png" width="500">
+<img src="https://github.com/abuzzi-cisco/angular-duo/blob/master/cisco_duo_1of3.png" width="500"><br>
+<img src="https://github.com/abuzzi-cisco/angular-duo/blob/master/cisco_duo_2of3.png" width="500"><br>
+
+Please note you will get an Access denied message due to invalid sig_request:<br>
+
+<img src="https://github.com/abuzzi-cisco/angular-duo/blob/master/cisco_duo_3of3.png" width="500"><br>
