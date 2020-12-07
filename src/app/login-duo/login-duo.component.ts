@@ -18,7 +18,7 @@ export class LoginDuoComponent implements OnInit {
 
       Duo.init({
         iframe: "duo_iframe",
-        host: "XXXXXXXXX.duosecurity.com",
+        host: "api-0c827f40.duosecurity.com",
         sig_request: "XXXXXXXXXXXX",
         submit_callback: (data:any) => {
           var elem = document.getElementsByName('sig_response');
