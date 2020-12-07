@@ -17,7 +17,7 @@ npm install
 ng serve
 ```
 
-Please remember to fill valid host & sig_request within the Duo.init initialization.
+Please remember to fill valid host & sig_request within the Duo.init initialization.<br>
 These can be found inside src/app/login-duo/login-duo.component.ts file
 
         host: "api-0c827f40.duosecurity.com",
